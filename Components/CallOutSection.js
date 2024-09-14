@@ -2,10 +2,10 @@ import React from 'react';
 
 const CalloutSection = () => {
   return (
-    <div className="sm:bg-sky-200 bg-sky-200 md:bg-gray-100 h-auto flex justify-center items-center p-24 md:h-screen ">
-      <div className="w-full max-w-4xl bg-sky-200 py-6  px-2 md:py-16 rounded-lg md:shadow-lg">
+    <div className="sm:bg-[#baebff] bg-[#baebff] lg:bg-white h-auto flex justify-center items-center sm:p-24 p-7 md:h-screen ">
+      <div className="w-full max-w-4xl bg-[#baebff] sm:py-6  sm:px-2 md:py-16 rounded-lg md:shadow-lg">
         <div className="text-center">
-          <h2 className="md:text-5xl text-5xl font-extralight text-[#004449] mb-6">
+          <h2 className="md:text-5xl text-4xl font-semibold sm:font-extralight text-[#004449] mb-6">
             Cheap flights that don't feel "cheap"
           </h2>
           <div className="mb-8 px-2  md:px-12 lg:px-24">
@@ -19,7 +19,7 @@ const CalloutSection = () => {
               aria-label="Get Going"
               href="/signup"
               target="_self"
-              className="inline-flex items-center justify-center bg-sky-200 text-[#004449] text-lg sm:text-base font-bold py-3    border-[2px] border-[#004449] px-7 sm:px-8 rounded-full hover:text-[#fffef0] hover:bg-[#004449] transition duration-300 ease-in-out"
+              className="inline-flex text-sm items-center justify-center bg-[#baebff] text-[#004449] sm:text-lg  sm:font-bold font-thin sm:py-3 py-3    border-[2px] border-[#004449] px-5 sm:px-8 rounded-full hover:text-[#fffef0] hover:bg-[#004449] transition duration-300 ease-in-out"
             >
               GET GOING
             </a>

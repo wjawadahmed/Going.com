@@ -104,7 +104,7 @@ const Footer = () => {
        
       </div>
       <div className="mt-8 h-[5rem] w-full -mb-8 uppercase font-semibold bg-[#fffef0] text-[#004449] border-t pt-4 flex flex-col md:flex-row justify-end items-center">
-          <div className="ml-6 text-sm space-y-2 md:space-y-0 md:flex md:space-x-4">
+          <div className="ml-6 text-sm space-y-2 md:space-y-0 md:flex md:space-x-4 space-x-4">
             <a href="/terms-of-use" className="hover:underline">
               Terms
             </a>

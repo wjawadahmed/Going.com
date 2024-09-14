@@ -29,9 +29,9 @@ const imageData = [
 
 const PopularDestinations = () => {
   return (
-    <div className="mx-auto py-8 px-4 bg-[#d7ffc2] ">
+    <div className="m-auto py-8 px-4 bg-[#d7ffc2] w-full">
       <div className=" flex text-center justify-center align-middle m-10">
-        <h2 className="text-5xl font-semibold text-[#004449] ">
+        <h2 className="text-4xl sm:text-5xl font-semibold text-[#004449] ">
           Cheap <a href="/flights/to" className=" underline decoration-[0.5px]">flights to</a> popular destinations
         </h2>
       </div>
@@ -41,9 +41,9 @@ const PopularDestinations = () => {
             <img 
               src={image.link} 
               alt={image.text} 
-              className="cursor-pointer md:h-[12rem] md:w-[20rem] lg:w-[23rem] lg:h-[15rem] object-cover rounded-full mb-2 transition-transform duration-300 transform hover:scale-105" 
+              className="cursor-pointer  md:h-[12rem] md:w-[20rem] lg:w-[23rem] lg:h-[15rem] object-cover rounded-full mb-2 transition-transform duration-300 transform hover:scale-105" 
             />
-            <p className="text-lg font-semibold text-gray-700">{image.text}</p>
+            <p className="text-lg font-semibold ">{image.text}</p>
           </div>
         ))}
       </div>

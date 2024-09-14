@@ -2,8 +2,8 @@ import React from 'react';
 
 const SmallCallOut = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center p-6 bg-gray-100 h-[26rem]">
-      <span className="text-3xl font-thin text-[#004449] mb-4">
+    <div className="flex flex-col justify-center items-center text-center p-6  h-[17rem] sm:h-[26rem] ">
+      <span className="sm:text-3xl text-lg font-semibold text-[#004449] mb-4">
         Tired of searching for flights?
         <br />
         <span className="bg-[#D7FFC2] px-2">
@@ -14,7 +14,7 @@ const SmallCallOut = () => {
         aria-label="Get Going"
         href="/signup"
         target="_self"
-        className="inline-flex items-center justify-center bg-[#483CFF] text-white text-md font-semibold py-5 px-10 rounded-full hover:bg-[#e4e3f2] hover:text-[#483CFF] transition duration-300 ease-in-out"
+        className="inline-flex sm:text-md items-center justify-center bg-[#483CFF] text-white text-sm font-semibold sm:py-5 sm:px-10 py-3 px-5 rounded-full hover:bg-[#e4e3f2] hover:text-[#483CFF] transition duration-300 ease-in-out"
       >
         GET GOING
         <svg

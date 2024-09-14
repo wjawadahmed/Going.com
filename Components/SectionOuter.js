@@ -25,13 +25,13 @@ const GuidesSection = () => {
   return (
     <div className="sectionOuter py-12 px-6 lg:px-12 bg-[#fffef0] text-[#004449]">
       <div className="section max-w-5xl mx-auto">
-        <h2 className="heading text-xl font-semibold mb-8 text-left">
+        <h2 className="heading text-lg sm:text-xl font-semibold mb-8 text-left">
           Check out our in-depth guides to finding cheap flights
         </h2>
         <div className="cardGrid grid gap-6 md:grid-cols-2 lg:grid-cols-3 ">
           {guides.map((guide, index) => (
             <a key={index} href={guide.url} className="no-underline">
-              <div className="card  bg-white shadow-lg rounded-xl overflow-hidden border border-[#004449] h-[21rem]">
+              <div className="card  bg-white rounded-xl overflow-hidden border border-[#004449] h-[21rem]">
                 <div className="cardImage relative h-64">
                   <img
                     alt={guide.alt}
@@ -41,7 +41,7 @@ const GuidesSection = () => {
                   />
                 </div>
                 <div className="cardBottom p-4 flex items-center justify-between">
-                  <h3 className="paragraph text-lg font-[550]">
+                  <h3 className="paragraph text-md sm:text-xl font-[550]">
                     {guide.title}
                   </h3>
                   <div className="-ml-6 button large tertiary icon-only flex items-center rounded-full hover:bg-[#368181] hover:text-[#fffef0] hover:border-transparent duration-100 ease-in transition-all p-3">

@@ -38,7 +38,7 @@ const dealsData = [
 
 const Deals = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 ">
+    <div className="min-h-screen flex items-center justify-center ">
       <div className="sm:container  p-4">
         <div className="order-last text-center mb-8">
           <h3 className="text-3xl font-thin text-[#004449]">
@@ -66,7 +66,7 @@ const Deals = () => {
                 </div>
                 <div className="mb-2 text-[#004449]">
                   <div className="text-xl font-bold break-words md:text-2xl">{deal.destination}</div>
-                  <div className="text-gray-600 text-xs md:mt-5">From {deal.from}</div>
+                  <div className="text-gray-600 text-xs md:mt-5 mt-4 mb-5">From {deal.from}</div>
                 </div>
                 <div className="text-sm font-bold text-[#004449] ">
                   <div>{deal.class}</div>

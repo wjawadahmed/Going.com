@@ -21,8 +21,8 @@ const MobileAppHero = () => {
             />
             <span className="ml-2 text-3xl lg:text-5xl font-[700] italic text-[#004449] text-center"> Explore the Going app</span>
           </div>
-          <div className="md:p-10 p-4 lg:p-0 lg:pb-6 sm:px-14 text-center">
-            <span className="text-3xl  text-[#004449] font-[600] text-center  mb-4 lg:mb-6">
+          <div className="md:p-10 p-6 lg:p-0 lg:pb-6 sm:px-14 text-center">
+            <span className=" text-2xl sm:text-3xl  text-[#004449] font-thin sm:font-[600] text-center  mb-4 lg:mb-6">
               Discover your next trip by downloading the Going app on iOS and Android.
             </span>
           </div>

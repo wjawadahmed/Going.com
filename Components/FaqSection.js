@@ -4,11 +4,11 @@ const FAQSection = () => {
   return (
     <div className="sectionOuter mx-auto py-8 px-4 bg-[#fffef0] text-[#004449]">
       <div className="section">
-        <div className="title text-center mb-8">
-          <h2 className="heading text-5xl font-[550] mt-16">
+        <div className="title text-center mb-8 pl-8 pr-8 sm:p-auto">
+          <h2 className="heading  text-4xl sm:text-5xl font-[550] mt-16">
             Frequently asked questions about cheap flights
           </h2>
-          <p className="paragraph mt-2">
+          <p className="paragraph mt-2 ">
             Answered by our resident cheap flights expert Scott
           </p>
         </div>
@@ -18,15 +18,15 @@ const FAQSection = () => {
             loading="lazy"
             width="100"
             height="100"
-            className="w-[18rem] h-[19rem] object-cover rounded-xl mr-6"
+            className="w-[18rem] h-[19rem] object-cover rounded-xl mr-6 mb-6"
             src="https://www.going.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflights-faq-photo.0ee40724.png&w=640&q=75&dpl=dpl_HnfQgEM6u8RbvmxJhzcrhepHwrbj"
           />
           <div className="faq flex-1">
             <div className="accordionOuter  w-screen md:w-full">
               {faqData.map((faq, index) => (
-                <details key={index} className="accordion m-4 border-b-[0.4px] border-[rgba(0,68,73,.4)]  ">
-                  <summary className="flex justify-between items-center  cursor-pointer p-2 ">
-                    <h3 className="paragraph text-md font-semibold pb-2  ">{faq.question}</h3>
+                <details key={index} className="accordion  m-4 border-b-[0.4px] border-[rgba(0,68,73,.4)]  ">
+                  <summary className="flex justify-between items-center  cursor-pointer sm:p-2 p-1">
+                    <h3 className="paragraph text-sm sm:text-md font-semibold pb-2  ">{faq.question}</h3>
                     <span className="iconWrapper">
                       <svg
                         fill="none"
@@ -45,8 +45,8 @@ const FAQSection = () => {
                       </svg>
                     </span>
                   </summary>
-                  <div className="accordionAnswer md:p-4 p-2">
-                    <p className="paragraph text-md md:ml-4 ml-2">{faq.answer}</p>
+                  <div className="accordionAnswer sm:p-4 p-2">
+                    <p className="paragraph text-sm sm:text-md md:ml-4 ml-2">{faq.answer}</p>
                   </div>
                 </details>
               ))}

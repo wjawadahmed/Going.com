@@ -52,7 +52,7 @@ const Map = () => {
             </div>
           </div>
           <div className="label">
-            <p className="paragraph text-sm text-center text-[#004449] p-2">
+            <p className="paragraph sm:text-sm text-xs text-center text-[#004449] p-2">
               Over the last 2 years, we've sent Going members from Portland International
               Jetport to 146 destinations. These are the cheapest flights we've found to each
               of those destinations.

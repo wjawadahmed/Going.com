@@ -122,7 +122,7 @@ const ImageSlider = () => {
         <div className="p-6 bg-[#fffef0] shadow-lg">
           <div className="sm:pt-12 md:p-auto gap-4 flex justify-center items-center">
             <CustomLeftArrow />
-            <h1 className="text-[#004449] md:text-5xl text-4xl sm:text-3xl font-thin p-11 text-center sm:font-semibold">
+            <h1 className="text-[#004449] md:text-5xl text-xl sm:text-3xl font-bold sm:p-11 p-5 text-center sm:font-semibold">
               Find cheap <span className="underline decoration-1">flights from</span> your favorite cities
             </h1>
             <CustomRightArrow />
@@ -140,7 +140,7 @@ const ImageSlider = () => {
                     alt={`Slide ${index + 1}`}
                     className="md:h-[16rem] sm:h-[10rem] h-[10rem] md:w-[140px] sm:w-[100px] w-[100px] lg:w-[180px] object-cover border-8 border-white rounded-full shadow-md"
                   />
-                  <p className="mt-2 text-balance break-words font-semibold text-sm sm:text-base md:text-lg text-[#004449] underline decoration-[0.5px] lg:w-36 md:w-auto">
+                  <p className="mt-2 text-balance break-words font-semibold text-xs sm:text-base md:text-lg text-[#004449] underline decoration-[0.5px] lg:w-36 md:w-auto">
                     {image.text}
                   </p>
                 </div>
